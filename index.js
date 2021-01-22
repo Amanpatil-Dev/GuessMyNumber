@@ -44,7 +44,11 @@ const CheckNumber=(num)=>{
         if(num==Correct_Number){
             Display_Result.textContent=Res_Arr[2]
             Body.style.backgroundColor="#d1e7dd"
+            if(Score.textContent>High_Score.textContent){
            console.log(High_Score.textContent=Score.textContent)
+
+
+            }
            console.log(attempt)
            
 
